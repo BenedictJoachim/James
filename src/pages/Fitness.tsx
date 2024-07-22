@@ -4,18 +4,18 @@ import Program from "../components/fitness/Program";
 import Progress from "../components/fitness/Progress";
 import Services from "../components/fitness/Services";
 import Trainer from "../components/fitness/Trainer";
-import Footer from "../components/fitness/Footer";
+import Hero from "../components/fitness/Hero";
 
 const Fitness = () => {
     return (
         <div>
             <Header />
+            <Hero />
             <Program />
             <BodyShape />
             <Trainer />
             <Progress />
             <Services />
-            <Footer />
         </div>
     );
 };

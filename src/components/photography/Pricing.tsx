@@ -1,4 +1,3 @@
-import React from 'react';
 import { motion } from 'framer-motion';
 
 const Pricing = () => {
@@ -81,8 +80,8 @@ const Pricing = () => {
           <button className="bg-green-500 text-white py-2 px-4 rounded">BOOK NOW ➜</button>
         </motion.div>
       </div>
-      <div className="mt-12 bg-green-200 rounded-full flex justify-between p-2 md:flex-row text-center">
-        <h1 className='text-[#35A22F]'>Secure an appointment right away.</h1>
+      <div className="mt-12 bg-green-200 rounded-full flex justify-between items-center px-4 py-2 md:flex-row text-center">
+        <h1 className='text-[#35A22F] text-2xl'>Secure an appointment right away.</h1>
         <button className="bg-[#35A22F] text-white py-3 px-6 rounded-full">Book SESSION Now!</button>
       </div>
     </div>
