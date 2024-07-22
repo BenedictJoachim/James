@@ -12,7 +12,7 @@ const Home = () => {
               initial={{ opacity: 0, y: 150 }} 
               animate={{ opacity: 1, y: 0 }} 
               transition={{ duration: 0.5 }}
-              className="md:w-1/2 h-[50%] md:min-h-screen text-center md:text-center pl-8 pt-32 md:pt-64"
+              className="md:w-1/2 h-[50%] md:min-h-screen text-center md:text-center md:pl-8 pt-32 md:pt-64"
             >
               <h1 className="text-5xl font-bold">WE ARE THE BIDEBERIS</h1>
               <p className="mt-4">karibu!.</p>
@@ -25,9 +25,9 @@ const Home = () => {
               initial={{ opacity: 0, y: 100 }} 
               animate={{ opacity: 1, y: 0 }} 
               transition={{ duration: 0.5, delay: 0.5 }}
-              className="md:w-1/2"
+              className="w-full md:w-1/2"
             >
-              <img src="/familiy.jpg" alt="Placeholder" className="w-full md:min-h-screen" />
+              <img src="https://placehold.jp/300x550.png" alt="Placeholder" className="w-full h-96 md:min-h-screen" />
             </motion.div>
           </section>
         </div>
@@ -58,7 +58,7 @@ const Home = () => {
               whileInView={{ opacity: 1, y: 0 }} 
               viewport={{ once: true }}
               transition={{ duration: 0.5 }}
-              className="md:w-1/2 p-4"
+              className="md:order-1 md:w-1/2 p-4"
             >
               <h2 className="text-4xl font-bold">Photography</h2>
               <p className="mt-4">
@@ -73,9 +73,9 @@ const Home = () => {
               whileInView={{ opacity: 1, y: 0 }} 
               viewport={{ once: true }}
               transition={{ duration: 0.5, delay: 0.5 }}
-              className="md:w-1/2"
+              className="md:order-1 w-full md:w-1/2"
             >
-              <img src="/photogrphr.jpg" alt="Photography" className="w-full md:min-h-screen" />
+              <img src="https://placehold.jp/300x550.png" alt="Photography" className="w-full h-96 md:min-h-screen" />
             </motion.div>
           </section>
         </div>
@@ -88,7 +88,7 @@ const Home = () => {
               whileInView={{ opacity: 1, y: 0 }} 
               viewport={{ once: true }}
               transition={{ duration: 0.5 }}
-              className="md:w-1/2 p-4"
+              className="md:order-2 md:w-1/2 p-4"
             >
               <h2 className="text-4xl font-bold">Fitness</h2>
               <p className="mt-4">
@@ -103,9 +103,9 @@ const Home = () => {
               whileInView={{ opacity: 1, y: 0 }} 
               viewport={{ once: true }}
               transition={{ duration: 0.5, delay: 0.5 }}
-              className="md:w-1/2"
+              className="md:order-1 w-full md:w-1/2"
             >
-              <img src="trainer.jpg" alt="Fitness" className="w-full md:min-h-screen" />
+              <img src="https://placehold.jp/300x550.png" alt="Fitness" className="w-full h-96 md:min-h-screen" />
             </motion.div>
           </section>
         </div>
@@ -118,7 +118,7 @@ const Home = () => {
               whileInView={{ opacity: 1, y: 0 }} 
               viewport={{ once: true }}
               transition={{ duration: 0.5 }}
-              className="md:w-1/2 p-4"
+              className="md:order-1 md:w-1/2 p-4"
             >
               <h2 className="text-4xl font-bold">Arts</h2>
               <p className="mt-4">
@@ -133,9 +133,9 @@ const Home = () => {
               whileInView={{ opacity: 1, y: 0 }} 
               viewport={{ once: true }}
               transition={{ duration: 0.5, delay: 0.5 }}
-              className="md:w-1/2"
+              className="md:order-2 w-full md:w-1/2"
             >
-              <img src="/artscrafts.jpg" alt="Arts" className="w-full md:min-h-screen" />
+              <img src="https://placehold.jp/300x550.png" alt="Arts" className="w-full h-96 md:min-h-screen" />
             </motion.div>
           </section>
         </div>
@@ -148,7 +148,7 @@ const Home = () => {
               whileInView={{ opacity: 1, y: 0 }} 
               viewport={{ once: true }}
               transition={{ duration: 0.5 }}
-              className="md:w-1/2 p-4"
+              className="md:order-2 md:w-1/2 p-4"
             >
               <h2 className="text-4xl font-bold">Blog</h2>
               <p className="mt-4">
@@ -163,9 +163,9 @@ const Home = () => {
               whileInView={{ opacity: 1, y: 0 }} 
               viewport={{ once: true }}
               transition={{ duration: 0.5, delay: 0.5 }}
-              className="md:w-1/2"
+              className="w-full md:w-1/2 md:order-1"
             >
-              <img src="/familiy.jpg" alt="Blog" className="w-full md:min-h-screen" />
+              <img src="https://placehold.jp/300x550.png" alt="Blog" className="object-cover w-full h-96 md:min-h-screen" />
             </motion.div>
           </section>
         </div>

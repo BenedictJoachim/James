@@ -7,7 +7,7 @@ const posts = [
     content: "<p>Here goes the content of the post...</p>",
     author: "John Doe",
     date: "7/20/24",
-    image: "placeholder-image-url",
+    image: "https://via.placeholder.com/300",
   },
   // Add more posts here
 ];

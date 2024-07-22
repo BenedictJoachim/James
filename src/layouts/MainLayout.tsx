@@ -17,7 +17,7 @@ const MainLayout = ({ children }: { children: ReactNode }) => {
                 </div>
             </nav>
       </header>
-      <main className="flex-grow container mx-auto">
+      <main className="flex-grow container">
         {children}
       </main>
       <footer className="bg-gray-800 text-white p-4 text-center z-50">
