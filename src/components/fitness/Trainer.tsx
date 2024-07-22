@@ -6,7 +6,7 @@ const Trainer = () => (
       <motion.img 
         src="/path-to-trainer.jpg" 
         alt="Trainer" 
-        className="w-full md:w-1/2 rounded-lg"
+        className="w-full md:order-2 md:w-1/2 rounded-lg"
         initial={{ x: -100, opacity: 0 }} 
         animate={{ x: 0, opacity: 1 }} 
         transition={{ duration: 1 }}
