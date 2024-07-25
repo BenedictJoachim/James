@@ -82,7 +82,7 @@ const Services = () => {
           <button className="bg-green-500 text-white py-2 px-4 rounded">BOOK NOW ➜</button>
         </motion.div>
       </div>
-      <div className="mt-12 bg-green-200 rounded-full flex justify-between items-center px-4 py-1 md:flex-row text-center">
+      <div className="mt-12 md:bg-green-200 rounded-full flex justify-between items-center px-4 py-1 md:flex-row text-center">
         <h1 className='text-[#35A22F] text-2xl'>Secure an appointment right away.</h1>
         <button className="bg-[#35A22F] text-white py-3 px-6 rounded-full">Book SESSION Now!</button>
       </div>
